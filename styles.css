@@ -1,0 +1,19 @@
+body {
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: #fdfafc;
+  color: #a34b86;
+}
+body div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  min-height: 100%;
+  width: 100%;
+}
+body div p {
+  font-size: 3em;
+}
