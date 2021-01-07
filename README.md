@@ -1,2 +1,3 @@
-# conventional-commits-changelog-generation
-Getting started with Conventional Commits &amp; Changelog generation
+# Getting Started with Conventional Commits &amp; Changelog Generation
+
+

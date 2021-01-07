@@ -1,0 +1,29 @@
+{
+    "header": "CHANGELOG",
+    "types": [
+        {"type": "feat", "section": "Features"},
+        {"type": "fix", "section": "Bug Fixes"},
+        {"type": "chore", "hidden": true},
+        {"type": "test", "hidden": true}
+    ],
+    "commitUrlFormat": "{{host}}/peta-byte/conventional-commits-changelog-generation/commit/{{hash}}",
+    "compareUrlFormat": "{{host}}/peta-byte/conventional-commits-changelog-generation/compare/{{previousTag}}...{{currentTag}}",
+    "issueUrlFormat": "{{host}}/peta-byte/conventional-commits-changelog-generation/issues/{{id}}",
+    "userUrlFormat": "{{host}}/{{user}}",
+    "releaseCommitMessageFormat": "chore(release): {{currentTag}}",
+    "issuePrefixes": [
+        "#"
+    ],
+    "bumpFiles": [
+        {
+            "filename": "package-lock.json",
+            "type": "json"
+        }
+    ],
+    "packageFiles": [
+        {
+            "filename": "package.json",
+            "type": "json"
+        }
+    ]
+}
